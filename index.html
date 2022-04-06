@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cartao-topo.css">
+    <link rel="stylesheet" href="css/listagem.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="pokedex">
+            <div class="cartoes-pokemon">
+                <div class="cartao-pokemon aberto" id="cartao-pikachu">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <div class="nome-pokemon">
+                                <h2>Pikachu</h2>
+                                <span>#001</span>
+                            </div>
+                            <span class="tipo">elétrico</span>
+                        </div>
+                        <div class="imagem-pokemon">
+                            <img src="/Pokedex/src/img/pikachu.png">
+                        </div>
+                    </div>
+                    <div class="cartao-informaçoes">
+                        <div class="status">
+                            <h3>Status</h3>
+                            <ul>
+                                <li>HP: 300</li>
+                                <li>Ataque: 600</li>
+                                <li>Defesa: 500</li>
+                                <li>Velocidade: 300</li>
+                                <li>Total: 1700</li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Habilidades</h3>
+                            <ul>
+                                <li>Choque do trovão</li>
+                                <li>Cabeçada</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="cartao-pokemon" id="cartao-bulbasaur">
+                    <div class="cartao-topo bulbasaur">
+                        <div class="detalhes">
+                            <div class="nome-pokemon">
+                                <h2>Bulbasaur</h2>
+                                <span>#002</span>
+                            </div>
+                            <span class="tipo-bulbasaur">grama</span>
+                        </div>
+                        <div class="imagem-pokemon">
+                            <img src="/Pokedex/src/img/bulbasaur.png">
+                        </div>
+                    </div>
+                    <div class="cartao-informaçoes">
+                        <div class="status">
+                            <h3>Status</h3>
+                            <ul>
+                                <li>HP: 300</li>
+                                <li>Ataque: 900</li>
+                                <li>Defesa: 200</li>
+                                <li>Velocidade: 100</li>
+                                <li>Total: 1500</li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Habilidades</h3>
+                            <ul>
+                                <li>Folha navalha</li>
+                                <li>Raio solar</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="cartao-pokemon" id="cartao-charmander">
+                    <div class="cartao-topo charmander">
+                        <div class="detalhes">
+                            <div class="nome-pokemon">
+                                <h2>Charmander</h2>
+                                <span>#003</span>
+                            </div>
+                            <span class="tipo-charmander">fogo</span>
+                        </div>
+                        <div class="imagem-pokemon">
+                            <img src="/Pokedex/src/img/charmander.png">
+                        </div>
+                    </div>
+                    <div class="cartao-informaçoes">
+                        <div class="status">
+                            <h3>Status</h3>
+                            <ul>
+                                <li>HP: 900</li>
+                                <li>Ataque: 200</li>
+                                <li>Defesa: 400</li>
+                                <li>Velocidade: 100</li>
+                                <li>Total: 1600</li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Habilidades</h3>
+                            <ul>
+                                <li>Lança-chamas</li>
+                                <li>Golpear</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="listagem">
+                <ul>
+                    <li class="cabeca-pokemon ativo" id="pikachu">
+                        <img src="/Pokedex/src/img/cabeca-pikachu.png">
+                        <span>Pikachu</span>
+                    </li>
+                    <li  class="cabeca-pokemon"  id="bulbasaur">
+                        <img src="/Pokedex/src/img/cabeca-bulbasaur.png">
+                        <span>Boubasaur</span>
+                    </li>
+                    <li  class="cabeca-pokemon"  id="charmander">
+                        <img src="/Pokedex/src/img/cabeca-charmander.png">
+                        <span>Charmander</span>
+                    </li>
+                    <!-- <li  class="cabeca-pokemon"  id="dragonite">
+                        <img src="/Pokedex/src/img/cabeca-dragonite.png">
+                        <span>Dragonite</span>
+                    </li>
+                    <li  class="cabeca-pokemon">
+                        <img src="/Pokedex/src/img/cabeca-gengar.png">
+                        <span>Gengar</span>
+                    </li>
+                    <li  class="cabeca-pokemon">
+                        <img src="/Pokedex/src/img/cabeca-gyarados.png">
+                        <span>Gyarados</span>
+                    </li> -->
+                </ul>
+            </nav>    
+        </div>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
